@@ -1,0 +1,18 @@
+.metro {
+    list-style-type: none;
+    padding: 6px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+}
+
+.metro p {
+    margin-bottom: 0;
+}
+
+.timestamp {
+    color: #d1d1d1;
+}
+
+.metro img {
+    display: none;
+}

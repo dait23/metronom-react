@@ -5,7 +5,7 @@ var login  = require('./login');
 var db = new (require('locallydb'))('./.data');
 var metros = db.collection('metro');
 ////////////////////// Express Router
-router.route('/api/chirps')
+router.route('/api/metros')
     .all(login.required)
     .get(function (req, res) {
         res.json(metros.toArray());
